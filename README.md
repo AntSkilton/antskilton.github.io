@@ -10,4 +10,10 @@ Just some notes for me on what I've done on making this blog for future referenc
 
 ## Rebuilding the blog
 
-Run `jekyll serve` to build (like `jekyll build` which outputs it to "_site") and it updates <http://localhost:4000> (which makes a local server) automatically in the session.
+Run `jekyll s` to build (like `jekyll build` which outputs it to "_site") and it updates <http://localhost:4000> (which makes a local server) automatically in the session.
+
+You can have live reloading of the page with: <br>`$ jekyll serve --livereload`
+
+However you'll need to fix an issue with the event machine gem by running this before hand:<br>
+`gem uninstall eventmachine` <br>
+`gem install eventmachine --platform ruby`

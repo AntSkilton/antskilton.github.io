@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+@font-face {
+	font-family: "Philosopher";
+	src: url("/assets/fonts/Philosopher/Philosopher-Regular.ttf");
+}
+
+$sans-serif: "Philosospher";
+
+//All custom code before imports
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: '-ant' }}"; // skin
+@import "minimal-mistakes"; // main partials

@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "CATEGORIES"
+    url: _pages/categories
+  - title: "ARCHIVE"
+    url: _pages/archive
+  - title: "ABOUT"
+    url: _pages/about
