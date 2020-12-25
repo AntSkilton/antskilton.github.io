@@ -1,16 +1,18 @@
-@charset "utf-8";
+//Only the main Sass file needs front matter (the dashes are enough)
 
+@charset "utf-8";
 
 @font-face {
 	font-family: "Philosopher";
 	src: url("/assets/fonts/Philosopher/Philosopher-Regular.ttf");
 }
 
-$sans-serif: "Philosospher";
+//$sans-serif: "Philosospher";
 
-$link-color: red;
+$link-color: rgb(51, 255, 0);
 
 //All custom code before imports
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: '-ant' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'ant' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
