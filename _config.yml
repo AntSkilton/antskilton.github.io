@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+#theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "ant" #"neon" "air", "aqua", "contrast", "default", "dirt", "dark", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #teaser                   : "/assets/images/test.jpg"
 #logo                     :# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : ANT SKILTON | GAME DEVELOPMENT BLOG # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : ANT SKILTON | GAME DEVELOPMENT BLOG # overrides the website title displayed in the masthead, use " " for no title 
 breadcrumbs              : false
 words_per_minute         : 200
 comments:
@@ -277,8 +277,14 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: false
       read_time: true
       comments: # true
       share: false
       related: false
+
+      #toc: true
+      toc_icon: "compass"
+      toc_sticky: false
+      toc_label: "On this page..."

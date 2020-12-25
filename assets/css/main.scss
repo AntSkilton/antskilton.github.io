@@ -8,6 +8,8 @@
 
 $sans-serif: "Philosospher";
 
+$link-color: red;
+
 //All custom code before imports
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: '-ant' }}"; // skin
