@@ -1,6 +1,6 @@
-# Ant's Game Developer Blog
+# [Ant's Game Development Blog](http://antskilton.github.io)
 
-Just some notes for me on what I've done on making this blog for future reference. [Jekyll installation](https://jekyllrb.com/docs/installation/) if needed.
+Just some notes for me on what I've done on making this blog for future reference. [Jekyll installation](https://jekyllrb.com/docs/installation/) if needed. Ive also set this custom blog up to work in dark mode by default and works with the Chrome override enabled too.
 
 ## Setting up this blog on a new machine
 
@@ -8,12 +8,13 @@ Just some notes for me on what I've done on making this blog for future referenc
 2. Reboot VSCode
 3. Pull repo somewhere sensible, use [Fork](https://git-fork.com/) for git client
 
-## Rebuilding the blog
+## Testing Offline
 
-Run `jekyll s` to build (like `jekyll build` which outputs it to "_site") and it updates <http://localhost:4000> (which makes a local server) automatically in the session.
+1. Edit the `_config.yml` and comment remote theme and uncomment theme.
+2. For CSS, I've had the best luck in editing `_variables.scss` for fonts, `ant.scss` for colours (custom skin) and `_pages.scss` for dyanamic em scaling. I found this to work wheras the css/main.scss override file wasn't behaving on Github pages as it's based off a remote theme for that to work. The explicit ovverides seem to do the job.
+3. Run `bundle exec jekyll s --liverelead` which outputs to <http://localhost:4000>
+4. Switch back the remote theme in `config.yml` before you push so that GitHub pages knows how to handle it all.
 
-You can have live reloading of the page with: <br>`$ jekyll serve --livereload`
+## Credits
 
-However you'll need to fix an issue with the event machine gem by running this before hand:<br>
-`gem uninstall eventmachine` <br>
-`gem install eventmachine --platform ruby`
+This is a custom adapted Jekyll theme originally from [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). Hosted on Github pages.

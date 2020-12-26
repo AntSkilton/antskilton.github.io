@@ -10,23 +10,23 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme                    : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+#theme                    : "minimal-mistakes-jekyll" #Toggle on for offline editing
+remote_theme           : "mmistakes/minimal-mistakes" #Toggle on for push deployment
 minimal_mistakes_skin    : "ant" #"neon" "air", "aqua", "contrast", "default", "dirt", "dark", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Ant Skilton's Game Dev Blog"
+title                    : "Ant Skilton | Game Dev Blog"
 title_separator          : "-"
-subtitle                 : #"GAME DEVELOPMENT BLOG" # site tagline that appears below site title in masthead
-name                     : "Ant Skilton"
+#subtitle                 : "Game Development Blog" # site tagline that appears below site title in masthead
+name                     : "Ant Skilton's Game Dev Blog"
 description              : "A blog about game development, with a focus leaning on technical artistry."
-url                      : "https://antskilton.github.io/"
+#url                      : "https://antskilton.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "AntSkilton/antskilton.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#repository               : "AntSkilton/antskilton.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #teaser                   : "/assets/images/test.jpg"
 #logo                     :# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : ANT SKILTON | GAME DEVELOPMENT BLOG # overrides the website title displayed in the masthead, use " " for no title 
+masthead_title           : Ant Skilton | Game Development Blog # overrides the website title displayed in the masthead, use " " for no title 
 breadcrumbs              : false
 words_per_minute         : 200
 comments:
@@ -95,7 +95,7 @@ analytics:
 author:
   #name             : ""
   avatar           : "/assets/images/antProfile.jpg"
-  bio              : "Me looking all *Apple-esque*"
+  #bio              : ""
   location         : "London, UK"
 
   links:
@@ -277,14 +277,15 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: wide
+      classes: default
       author_profile: false
+      show_date: true
       read_time: true
       comments: # true
       share: false
       related: false
 
-      #toc: true
+      toc: false
       toc_icon: "compass"
       toc_sticky: false
       toc_label: "On this page..."
