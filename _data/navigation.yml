@@ -3,7 +3,7 @@ main:
   - title: "CATEGORIES"
     url: _pages/categories
   - title: "ABOUT"
-    url: _pages/about
+    url: /about
 
 home:
 - title: "Parent Link 1"
