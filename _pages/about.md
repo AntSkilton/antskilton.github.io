@@ -1,12 +1,14 @@
 ---
 layout: single
-#author_profile: true
 title: About
+permalink: /about
 ---
 
-Hey I’m Ant, a professional game developer currently working at [Mediatonic](https://www.mediatonicgames.com/) / Tonic Games Group in London, UK. I've released a handful of PC & console titles over the years including Sea of Thieves and Fall Guys. My expertise revolves around both environment art in both the technical implementation sense (tooling, pipeline, dev ops) and traditional environment art (level art, asset creation & lighting).
+Hey I’m Ant, a professional game developer currently working at [Mediatonic](https://www.mediatonicgames.com/) / Tonic Games Group in London, UK. I've released a handful of PC & console titles over the years including [Fall Guys](https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/), [Sea of Thieves](https://store.steampowered.com/app/1172620/Sea_of_Thieves/), [Strange Brigade](https://store.steampowered.com/app/312670/Strange_Brigade/) & [Motorsport Manager](https://store.steampowered.com/app/415200/Motorsport_Manager/).
 
-> I'm that middle man who sits on the art team who makes sure environments look good and are optimal...
+My expertise revolves around both environment art in both the technical implementation sense (tooling, pipeline, dev ops) and traditional environment art (level art, asset creation & lighting).
+
+> I'm that chatty fellow who sits on the art team who helps make the environments look good (enough) and are optimal...
 
 <i class="fas fa-fw fa-envelope"></i> [Email](mailto:contactantskilton@gmail.com)
 <i class="fa fa-trophy"></i> [Résumé](https://drive.google.com/file/d/1U3rxf3td3gP3tMNMJxUV1dPIM47lomsZ/view?usp=sharing)
