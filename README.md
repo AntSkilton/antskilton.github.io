@@ -4,9 +4,12 @@ Just some notes for me on what I've done on making this blog for future referenc
 
 ## Setting up this blog on a new machine
 
-1. [Install the latest Ruby](https://rubyinstaller.org/downloads/)
-2. Reboot VSCode
-3. Pull repo somewhere sensible, use [Fork](https://git-fork.com/) for git client
+1. Install VS Code, login, pull this repo to your Git folder. I'd suggest putting it on `C:/Git` otherwise you may get issues
+2. [Install the latest Ruby](https://rubyinstaller.org/downloads/)
+3. In git bash run `gem install bundler` to get bundler
+4. Then run `bundle install` and `bundle update` to get the latest gems from this repo's gemfile
+5. If you have the x64 version of event machine running, you'll want to `gem uninstall eventmachine` and then `gem install eventmachine --platform ruby` so it uses the right version
+6. Reboot VSCode if needed
 
 ## Testing Offline
 
