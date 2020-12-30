@@ -7,7 +7,7 @@ toc: true
 
 ## Starting with the Floor
 
-The most essential piece of geometry in any character driven game is the floor of whatever form in comes in. Throughout this series, we'll be diving into 
+The most essential piece of geometry in any character driven game is the floor of whatever form in comes in. Throughout this series, we'll be diving into TEST
 
 
 
