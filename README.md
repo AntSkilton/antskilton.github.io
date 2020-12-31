@@ -8,14 +8,14 @@ Just some notes for me on what I've done on making this blog for future referenc
 2. [Install the latest Ruby](https://rubyinstaller.org/downloads/)
 3. In git bash run `gem install bundler` to get bundler
 4. Then run `bundle install` and `bundle update` to get the latest gems from this repo's gemfile
-5. If you have the x64 version of event machine running, you'll want to `gem uninstall eventmachine` and then `gem install eventmachine --platform ruby` so it uses the right version
+5. If you have the x64 version of event machine running, you'll want to `gem uninstall eventmachine` and then `gem install eventmachine --platform rubygem install eventmachine --platform ruby` so it uses the right version
 6. Reboot VSCode if needed
 
 ## Testing Offline
 
 1. Edit the `_config.yml` and comment remote theme and uncomment theme.
 2. For CSS, I've had the best luck in editing `_variables.scss` for fonts, `ant.scss` for colours (custom skin) and `_pages.scss` for dyanamic em scaling. I found this to work wheras the css/main.scss override file wasn't behaving on Github pages as it's based off a remote theme for that to work. The explicit ovverides seem to do the job.
-3. Run `bundle exec jekyll s --liverelead` which outputs to <http://localhost:4000>
+3. Run `bundle exec jekyll s --livereload` which outputs to <http://localhost:4000>
 4. Switch back the remote theme in `config.yml` before you push so that GitHub pages knows how to handle it all.
 
 ## Credits
