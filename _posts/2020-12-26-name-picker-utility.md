@@ -13,9 +13,9 @@ I went on holiday this year with my friends and we were planning a series of min
 
 ## C#
 
-It uses delegates and events hooked up to the UI and all comes from one script. The names are hardcoded and primed into an available names list on `Start()`, with an empty chosen names list instantiated too. The main function below moves the entries about accordingly.
+It uses delegates and events via the observer patter hooked up to the UI and all comes from one script. The names are hardcoded and primed into an available names list on `Start()`, with an empty chosen names list instantiated too. The main function below moves the entries about accordingly.
 
-```
+``` C#
     public void NamePick()
     {
         if (SquadNames.Count!=0){
