@@ -18,6 +18,8 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#fff, $link-color, 20%)  !default;
 $navicon-link-color-hover: mix(#fff, $link-color, 20%)  !default;
 
+$danger-color: #7c3837 !default;
+
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons i,
@@ -28,4 +30,3 @@ $navicon-link-color-hover: mix(#fff, $link-color, 20%)  !default;
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
-  
