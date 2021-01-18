@@ -4,17 +4,13 @@ title:  "Procedural Dungeon Design Part 2: 3D Pieces"
 categories: procedural-generation
 toc: true
 ---
-
 ## Starting with the Floor
 
-The most essential piece of geometry in any character driven game is the floor of whatever form in comes in. Throughout this series, we'll be diving into TEST
+Considered to be the most essential piece of geometry in most games is the floor. We will assume that the canvas (or room) is a void, and we'll be creating play space additively through the use of modular 3D pieces, just like Lego. Let's consider how this floor can be drawn. A common and robust method would be to use a grid comprised of X and Z (assuming Y up as it is in Unity). The grid squares can become filled, or remain unfilled by a user. Upon generation, the output should be desirable to the image below at a minimum.
 
+IMAGE
 
-
-
-
-
-
+Using metrics of the real world is much preferred over generic units and how game engines are set these days. We would want to assign a lowest denomination of tile size for the floor type of input to be 2m. It's an appropriate size assuming characters and enemies for the majority are reasonably scaled to human-like scales, which they tend to be (enormous bosses included).
 
 
 

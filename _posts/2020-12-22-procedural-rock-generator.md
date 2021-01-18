@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Procedural Rock Generator"
-excerpt: "My process for creating procedural rocks using Houdini & Substance Designer"
-categories: procedural-modelling, houdini, substance-designer.
+excerpt: "My process for creating procedural rocks using Houdini & Substance Designer."
+categories: procedural-modelling houdini substance-designer
 toc: true
 ---
 ![Alt](\assets\images\2020-12-22-procedural-rock-generator\comp1.jpg)
@@ -34,7 +34,7 @@ Graph overview. Please reference this for exact node names and structure context
 
 I assessed what shapes I needed from the concept and blocked out it with primitives. You can make these in Houdini easily with edit nodes, or pull in some blockout meshes from any DCC. The below gif shows the primitive model as the input, with the exported high baking model and runtime model. As you can see from the overview, this is the point where we can swap inputs into the rest of the algorithm.
 
-![image-center](\assets\images\2020-12-22-procedural-rock-generator\process.gif "One primitive example"){: .align-center}
+![Alt](\assets\images\2020-12-22-procedural-rock-generator\process.gif "One primitive example"){: .align-center}
 
 ## 2. Shatter
 
@@ -78,7 +78,7 @@ Here is the last VDB, with a finer and smaller voxel size than before. This prim
 
 This is similar to the first noise pass but with different parameters. Again more X and Z horizontal stretching Perlin to have those those sedimentary streaks. I prefer baking these in the high poly rather than a substance world space projection because it feels more organic, as you see the lineage curve around the crests as the wind has worn about at it over time. I add in a user ramp input at this point so we can have a curve exposed on the tier above. This acts just like a curve node in Designer we can artistically control the peaks and troughs. Like before, all normalised to a range.
 
-![image-center](\assets\images\2020-12-22-procedural-rock-generator\curve.png){: .align-center}
+![Alt](\assets\images\2020-12-22-procedural-rock-generator\curve.png){: .align-center}
 
 Export this as the high poly. I avoid more organic or finer details in Houdini, as I see it to be more appropriate to apply that layer in Substance Painter.
 
