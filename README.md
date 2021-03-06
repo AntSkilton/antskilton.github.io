@@ -10,6 +10,7 @@ Just some notes for me on what I've done on making this blog for future referenc
 4. Then run `bundle install` and `bundle update` to get the latest gems from this repo's gemfile
 5. If you have the x64 version of event machine running, you'll want to `gem uninstall eventmachine` and then `gem install eventmachine --platform rubygem install eventmachine --platform ruby` so it uses the right version
 6. Reboot VSCode if needed
+7. View markdown file previews (with Markdown in all one extension with `Ctrl + Shift + V`)
 
 ## Testing Offline
 
