@@ -29,7 +29,7 @@ Seeing as we're not using a normal map, this unlit shader is fit for Quest 2 / m
 
 ## Water Shader
 
-There are many ways to implement water with a high ceiling for intricate solutions. My focus here was to build from a vanilla unlit shader which has readable stylised water qualities properties including flow, intersection edge foam and a slope-based waterfall foam.
+There are many ways to implement water with a high ceiling for intricate solutions. My focus here was to build from a vanilla unlit shader which has readable stylised water qualities with properties including flow, intersection edge foam and a slope-based waterfall foam.
 
 ![image-center](\assets\images\2021-03-07-shaders-ice-water\stylisedWater.gif){: .align-center}
 
