@@ -9,7 +9,7 @@ toc: false
 
 I took part in the Global Game Jam 2022 this January, and this is the end result...
 
-![Alt](/antskilton.github.io/assets/images/2022-02-04-the-dappled-forest/theDappledForest.gif "Moving between light and dark")
+![Alt](/assets/images/2022-02-04-the-dappled-forest/theDappledForest.gif "Moving between light and dark")
 
 We met on the London jam Discord, and due to covid restrictions, instead of cramming everything in on the weekend, I was able to pace
 out the Sunday throughout the week, which also allowed people to discuss ideas before the weekend too.
@@ -23,7 +23,7 @@ To turn it into a game I thought a timer (1 minute on the clock) and a points sy
 light or shadow (as directed by the objective text) would be the core concept just to get us going. I started off by getting into Pro Builder and hacking out some shapes out.
 With a directional light above the environment, they would cast perfect silhouettes down below.
 
-![Alt](/antskilton.github.io/assets/images/2022-02-04-the-dappled-forest/theDappledForest2.gif "Shape silhouettes")
+![Alt](/assets/images/2022-02-04-the-dappled-forest/theDappledForest2.gif "Shape silhouettes")
 
 Taking those shapes, I extruded them to make volumes which would then become the collider volumes. Duplicating these volumes, we could then
 make 3 arrays of light volumes, shadow volumes and those original shape masks. If we start with the light volumes hidden, we can randomly iterate over 
