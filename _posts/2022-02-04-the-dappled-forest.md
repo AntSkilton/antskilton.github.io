@@ -11,13 +11,10 @@ I took part in the Global Game Jam 2022 this January, and this is the end result
 
 ![Alt](/assets/images/2022-02-04-the-dappled-forest/theDappledForest.gif "Moving between light and dark")
 
-We met on the London jam Discord, and due to covid restrictions, instead of cramming everything in on the weekend, I was able to pace
-out the Sunday throughout the week, which also allowed people to discuss ideas before the weekend too.
-
-The theme was "duality", and we ended up landing the staple reliable theme of light and shadow.
+We met on the London jam Discord. The theme was "duality", and we ended up landing on the staple reliable theme of light and shadow.
 Stealth games favour the shadow, whereas horror games favour the light, I wanted to concentrate
-more of the equality of them. The Yin and the Yang. Dappled light through leaves has a harmony to it
-so I thought 
+more of the equality of them. The Yin and the Yang. Dappled light through tree leaves suggests an ambiguous ratio of
+light to dark. We never got any alpha texture projections going in the end, but the intent was there.
 
 To turn it into a game I thought a timer (1 minute on the clock) and a points system gaining points over time in either
 light or shadow (as directed by the objective text) would be the core concept just to get us going. I started off by getting into Pro Builder and hacking out some shapes out.
