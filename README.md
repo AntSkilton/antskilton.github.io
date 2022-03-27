@@ -19,6 +19,7 @@ Just some notes for me on what I've done on making this blog for future referenc
 3. For CSS, I've had the best luck in editing `_variables.scss` for fonts, `ant.scss` for colours (custom skin) and `_pages.scss` for dynamic em scaling. I found this to work whereas the css/main.scss override file wasn't behaving on Github pages as it's based off a remote theme for that to work. The explicit overrides seem to do the job.
 4. Run `bundle exec jekyll s --livereload` which outputs to <http://localhost:4000>
 5. Switch back the remote theme in `config.yml` before you push so that GitHub pages knows how to handle it all.
+6. If you get `bundle` errors, delete `Gemfile.lock` and try again.
 
 ## Credits
 

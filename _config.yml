@@ -16,17 +16,18 @@ minimal_mistakes_skin    : "ant" #"neon" "air", "aqua", "contrast", "default", "
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Ant Skilton | Game Dev Blog"
-title_separator          : "-"
-#subtitle                 : "Game Development Blog" # site tagline that appears below site title in masthead
-name                     : "Ant Skilton's Game Dev Blog"
-description              : "A blog about game development, with a focus leaning on technical artistry."
+title                    : "Ant Skilton"
+title_separator          : "|"
+subtitle                 : "Software Development Blog" # site tagline that appears below site title in masthead
+name                     : "Ant Skilton's Developer Blog"
+
+description              : "A blog about software development."
 #url                      : "https://antskilton.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 #repository               : "AntSkilton/antskilton.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 #teaser                   : "/assets/images/test.jpg"
-#logo                     :# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : Ant Skilton | Game Development Blog # overrides the website title displayed in the masthead, use " " for no title 
+logo                     : "/assets/favicon.ico" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+#masthead_title           : "Ant Skilton" # overrides the website title displayed in the masthead, use " " for no title 
 breadcrumbs              : false
 words_per_minute         : 200
 comments:
@@ -94,8 +95,8 @@ analytics:
 # Site Author
 author:
   #name             : ""
-  avatar           : "/assets/images/antProfile.jpg"
-  #bio              : ""
+  avatar           : "/assets/favicon.ico"
+  #bio              : "Testing"
   location         : "London, UK"
 
   links:

@@ -7,8 +7,7 @@ toc: false
 ---
 ## Readme Utility
 
-This utility allows you to create scriptable objects or components to create notes for the content team inside 
-of your Unity project.
+This utility allows you to create scriptable objects components to create notes for the content team inside of your Unity project.
 
 ![image-center](https://github.com/AntSkilton/ReadMeUtility/blob/master/Gifs/readmeAsset.gif?raw=true){: .align-center}
 
