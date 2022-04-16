@@ -1,4 +1,4 @@
-# [Ant's Game Development Blog](http://antskilton.github.io)
+# [Ant's Software Development Blog](http://antskilton.github.io)
 
 Just some notes for me on what I've done on making this blog for future reference. [Jekyll installation](https://jekyllrb.com/docs/installation/) if needed. Ive also set this custom blog up to work in dark mode by default and works with the Chrome override enabled too.
 
