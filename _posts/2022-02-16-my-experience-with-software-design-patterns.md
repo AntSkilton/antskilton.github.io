@@ -2,7 +2,7 @@
 layout: single
 title:  "Software Design Patterns"
 excerpt: "My experience with these architectural patterns."
-categories: patterns
+categories: [deep-dive]
 toc: true
 ---
 

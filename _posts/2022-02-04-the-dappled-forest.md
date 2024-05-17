@@ -2,7 +2,7 @@
 layout: single
 title:  "The Dappled Forest"
 excerpt: "Global Game Jam 2022 project."
-categories: game
+categories: [project]
 toc: false
 ---
 ## The Dappled Forest

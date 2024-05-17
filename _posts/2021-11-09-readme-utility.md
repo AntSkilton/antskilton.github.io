@@ -2,7 +2,7 @@
 layout: single
 title:  "Readme Utility"
 excerpt: "A simple utility to document your content base."
-categories: "editor-tooling"
+categories: [tool]
 toc: false
 ---
 ## Readme Utility

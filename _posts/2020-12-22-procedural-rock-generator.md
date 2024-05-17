@@ -2,7 +2,7 @@
 layout: single
 title:  "Procedural Rock Generator"
 excerpt: "My process for creating procedural rocks using Houdini & Substance Designer."
-categories: procedural-modelling houdini substance-designer
+categories: [tool]
 toc: true
 ---
 ![Alt](\assets\images\2020-12-22-procedural-rock-generator\comp1.jpg)

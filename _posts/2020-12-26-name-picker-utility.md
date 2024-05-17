@@ -2,7 +2,7 @@
 layout: single
 title:  "Name Picker Utility"
 excerpt: "A small utility for a big Olympic event!"
-categories: utility
+categories: [tool]
 toc: true
 ---
 ## The Requirement

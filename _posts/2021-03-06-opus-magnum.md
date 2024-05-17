@@ -2,7 +2,7 @@
 layout: single
 title:  "Opus Magnum: Game Digest"
 excerpt: "Soft programming wearing the mask of an alchemist."
-categories: game-review
+categories: [review]
 toc: true
 ---
 ## Alchemy 101

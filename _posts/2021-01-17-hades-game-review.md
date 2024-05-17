@@ -2,7 +2,7 @@
 layout: single
 title:  "Hades: Game Review"
 excerpt: "From game balancing of boons to the art of the underworld."
-categories: game-review
+categories: [review]
 toc: true
 ---
 <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>

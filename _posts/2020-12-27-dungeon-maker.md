@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "Procedural Dungeon Design Part 1: Overview"
+title:  "Procedural Dungeon Design"
 excerpt: "An introduction with example explanations into the use of proc gen in video games."
-categories: procedural-generation
+categories: [deep-dive]
 toc: true
 ---
 ## What *Exactly* is it?

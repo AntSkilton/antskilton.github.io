@@ -2,7 +2,7 @@
 layout: single
 title:  "Shaders: Ice & Water"
 excerpt: "Experimenting with custom H2O."
-categories: shaders
+categories: [project]
 toc: true
 ---
 ## Ice Shader

@@ -2,7 +2,7 @@
 layout: single
 title:  "Holiday Countdown Clock"
 excerpt: "Making a countdown screen on a Raspberry Pi."
-categories: microcontroller
+categories: [project]
 toc: true
 ---
 ## The Goal
