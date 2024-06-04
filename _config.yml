@@ -100,12 +100,6 @@ author:
   location         : "London, UK"
 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:contactantskilton@gmail.com"
-    - label: "Résumé"
-      icon: "fa fa-trophy"
-      url: "https://drive.google.com/file/d/1U3rxf3td3gP3tMNMJxUV1dPIM47lomsZ/view?usp=sharing"
     - label: "Artstation"
       icon: "fas fa-fw fa-paint-brush"
       url: "https://www.artstation.com/antskilton"
